@@ -18,6 +18,8 @@ int RecursiveBinarySearch::binarySearch(std::vector<int> list, int element, int 
     else if (element > list[middleP]){
         return binarySearch(list, element, middleP+1, endingP);
     }
+
+    return 0;
 }
 
 bool RecursiveBinarySearch::search(std::vector<int> list, int element){
